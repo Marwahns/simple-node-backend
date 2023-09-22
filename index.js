@@ -49,8 +49,6 @@ const server = http.createServer((req, res) => {
                 res.write(data)
             }
         })
-
-        res.end("<h1>Ini Halaman about, dengan type content HTML </h1>")
     }
 })
 
