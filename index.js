@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
                 res.write("Halaman ini tidak ditemukan")
             } else {
                 res.writeHead(200)
-                res.write(data)
+                res.end(data)
             }
         })
     }
